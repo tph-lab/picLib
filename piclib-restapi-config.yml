@@ -6,10 +6,10 @@ spring:
 server:
   port: 9999
   
-eureka:
-  client:
-    service-url:
-      defaultZone: http://admin:a@localhost:7301/eureka
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://admin:a@localhost:7301/eureka
 
 mybatis:
   configuration:
